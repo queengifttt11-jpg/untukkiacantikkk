@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>untukkiacantikk</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- =========================
+BACKGROUND
+========================= -->
+
+<div class="bg-blur bg1"></div>
+<div class="bg-blur bg2"></div>
+
+<div id="floating-hearts"></div>
+
+<div class="sparkles"></div>
+
+<!-- =========================
+MUSIC
+========================= -->
+
+<audio id="bgm" loop>
+
+<source src="musik.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- =========================
+PAGE 1
+OPENING
+========================= -->
+
+<section class="page active" id="page1">
+
+<div class="welcome">
+
+<img src="icon1.png" class="lotso lotso-big">
+
+<h1>
+
+Hi  Kiaa
+
+</h1>
+
+<p>
+Aku tau kejadian kemarin membuat hati kecil kamu sangat terluka dan sedih. Aku cuma minta waktu sebentar kamu buat baca ini.
+</p>
+
+<button id="startBtn">
+
+Buka Surat 💌
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 2
+ENVELOPE
+========================= -->
+
+<section class="page" id="page2">
+
+    <div class="heart-meter">
+
+        <div class="meter-text">
+            <span>Hati Kamu</span>
+            <span id="meterValue">0%</span>
+        </div>
+
+        <div class="meter">
+            <div class="meter-fill" id="meterFill"></div>
+        </div>
+
+    </div>
+
+    <div class="envelope-area">
+
+        <img
+            src="envelope.png"
+            alt="Envelope"
+            id="envelope"
+            class="envelope-img"
+        >
+
+    </div>
+
+</section>
+
+<!-- =========================
+PAGE 3
+LOTSO
+========================= -->
+
+<section class="page" id="page3">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+25%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter25"></div>
+
+</div>
+
+</div>
+
+<img src="icon2.png" class="lotso">
+
+<p>
+Mungkin aku sangat sering buat kamu kecewa terlebih lagi kejadian kemarin. Aku gaakan membela diri aku lagi. Aku cuman mau ngaku kalau aku emang salah.
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 4
+LOTSO
+========================= -->
+
+<section class="page" id="page4">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+50%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter50"></div>
+
+</div>
+
+</div>
+
+<img src="icon3.png" class="lotso">
+
+
+<p>
+
+Aku tahu kata maaf ga langsung menghilangkan rasa kecewa. Tapi aku benar-benar ingin berubah.
+
+</p>
+
+<button class="next">
+
+Next 🤍
+
+</button>
+
+</section>
+
+<!-- =========================
+PAGE 5
+LETTER
+========================= -->
+
+<section class="page" id="page5">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+75%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter75"></div>
+
+</div>
+
+</div>
+
+<div class="letter">
+
+<div class="letter-scroll">
+
+<p>
+
+Kiaa Sayangg...
+
+</p>
+
+<p>
+
+Aku benar-benar minta maaf. Maaf karna aku sering kecewain kamu, terlebih soal masalah kemarin, Maaf aku sudah memberi penjelasan yang gaada gunanya kayak kemarin, padahal yang nyatanya aku sudah salah. 
+</p>
+
+<p>
+Mungkin itu tidak luput dengan lambat nya pola pikir ku dalam menghadapi situasi. Maaf karna aku belum bisa menjadi yang terbaik buat kamu, menjadi seperti yang kamu mau dan menjadi tempat yang nyaman buat kamu.
+
+</p>
+
+</div>
+
+<button class="next">
+
+Aku Janji Berubah 🤍
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAGE 6
+ENDING
+========================= -->
+
+<section class="page" id="page6">
+
+<div class="heart-meter">
+
+<div class="meter-text">
+
+Hati Kamu
+
+<span>
+
+100%
+
+</span>
+
+</div>
+
+<div class="meter">
+
+<div class="meter-fill meter100"></div>
+
+</div>
+
+</div>
+
+<img src="icon4.png" class="lotso happy">
+
+<p>
+
+Terima kasih sudah membaca semuanya. Semoga setelah ini kita bisa sama-sama memperbaiki semuanya.❤️
+
+</p>
+
+<div class="btn-group">
+
+<button id="hugBtn">
+
+Peluk Virtual🫂
+
+</button>
+
+<button id="restartBtn">
+
+Replay💗
+
+</button>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
